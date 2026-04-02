@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/amiewei/skiapp
-    targetRevision: HEAD
+    repoURL: https://github.com/amiewei/skiapp.git
+    targetRevision: main
     path: k8s
   destination:
     server: https://kubernetes.default.svc
